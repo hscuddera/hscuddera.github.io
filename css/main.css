@@ -96,3 +96,42 @@ h2 {
 .borderfix7 {
     padding-right: 0px;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding-top: 4PX;
+    padding-right: 0PX;
+    padding-left: 93PX;
+    padding-bottom: 0PX;
+}
+li {
+    display: inline;
+    color: rgba(37,37,37,1.00);
+}a {
+    color: rgba(75,75,75,1.00);
+    padding-right: 0px;
+    padding-left: 0px;
+    font-family: "Helvetica Neue CE 75 Bold";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    text-shadow: 1px 1px 1px rgba(185,185,185,1.00);
+}
+a:hover {
+    color: rgba(25,25,25,1.00);
+    padding-right: 0px;
+    padding-left: 0px;
+    font-family: "Helvetica Neue CE 75 Bold";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+}
