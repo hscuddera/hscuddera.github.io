@@ -87,6 +87,9 @@ h2 {
 .borderfix5 {
     margin-top: 4px;
 }
+h1 {
+    font-family: "Helvetica Neue CE 75 Bold";
+}
 .borderfix6 {
     margin-right: 2px;
 }
@@ -109,7 +112,7 @@ li {
     display: inline;
     color: rgba(37,37,37,1.00);
 }a {
-    color: rgba(75,75,75,1.00);
+    color: rgba(50,50,50,1.00);
     padding-right: 0px;
     padding-left: 0px;
     font-family: "Helvetica Neue CE 75 Bold";
@@ -120,7 +123,7 @@ li {
     margin-right: 2px;
     margin-left: 2px;
     margin-bottom: 2px;
-    text-shadow: 1px 1px 1px rgba(185,185,185,1.00);
+    text-shadow: 0 0 1px rgba(185,185,185,1.00);
 }
 a:hover {
     color: rgba(25,25,25,1.00);
@@ -134,4 +137,8 @@ a:hover {
     margin-right: 2px;
     margin-left: 2px;
     margin-bottom: 2px;
+}
+.aboutadjust {
+    margin-left: 9px;
+    margin-top: 4px;
 }
