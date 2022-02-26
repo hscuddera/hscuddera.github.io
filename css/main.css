@@ -1,13 +1,26 @@
 @charset "UTF-8";
 @import url("Helvetica_Neue_CE_75_Bold/stylesheet.css");
 @import url("Helvetica_Neue_CE_55_Roman/stylesheet.css");
+@import url("Minecraft/stylesheet.css");
 .borderbody {
+    font-family: "Helvetica Neue CE 75 Bold";
+    font-style: normal;
+    font-weight: 400;
+    border: 4px solid rgba(0,0,0,1.00);
+    padding: 5px;
+    margin: 0px;
+}
+.borderbodyround {
     font-family: basic;
     font-style: normal;
     font-weight: 400;
     border: 4px solid rgba(0,0,0,1.00);
     padding: 5px;
     margin: 0px;
+    border-radius: 26px;
+}
+.space {
+    margin-top: 8px;
 }
 .borderfix4 {
     padding-left: 16px;
@@ -141,4 +154,84 @@ a:hover {
 .aboutadjust {
     margin-left: 9px;
     margin-top: 4px;
+}
+.graysection {
+    background-color: rgba(233,233,233,1.00);
+}
+.craftfont {
+    font-family: Minecraft;
+}
+.toppy {
+    position: relative;
+    z-index: 999;
+}
+.moreroom {
+    margin-top: 42px;
+}
+.transback {
+    background: transparent;
+	
+}
+header .row.borderbody .col-xl-2.col-sm-2 {
+    margin-right: -180px;
+}
+
+@media (max-width: 740px){
+.moreroom2 {
+    margin-top: 13px;
+}
+.toppy2 {
+    position: relative;
+    z-index: 1001;
+}
+h2 {
+    font-size: 20px;
+}
+.row.borderbody .col-9 h1 {
+    font-size: 34px;
+}
+.row.borderfix5 .col-6.borderbody.borderfix6 .borderfix7 {
+    font-size: 14px;
+}
+.headermarginadjuster {
+}
+}
+
+@media (max-width: 1028px){
+header .row.borderbody .col-xl-2.col-sm-2 {
+}
+.row.borderbody .col-xl-9.col-md-7.col-sm-3.headermarginadjuster p {
+    padding-bottom: 23px;
+}
+.row.borderbody .col-xl-9.col-md-7.col-sm-3.headermarginadjuster h1 {
+    font-size: 43px;
+    margin-left: 148px;
+}
+.row.borderbody .col-xl-9.col-md-7.col-sm-3.headermarginadjuster p {
+    margin-left: 152px;
+    font-size: 0px;
+}
+}
+
+@media (max-width: 1989px){
+header .row.borderbody .col-9 {
+}
+}
+
+@media (max-width: 1574px){
+header .row.borderbody .col-xl-2.col-sm-2 {
+    margin-right: -91px;
+}
+}
+
+@media (max-width: 614px){
+.col-xl-2.col-lg-3.col-sm-2 a .position-fixed.borderbody.borderfix.toppy {
+    max-width: 184px;
+    max-height: 135px;
+}
+}
+
+@media (min-width: 769px) and (max-width: 1748px){
+header .row.borderbody section {
+}
 }
