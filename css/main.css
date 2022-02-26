@@ -10,6 +10,9 @@
     padding: 5px;
     margin: 0px;
 }
+.container-fluid.borderbody.scrollexpand .borderbody.space {
+    margin-top: 35px;
+}
 .borderbodyround {
     font-family: basic;
     font-style: normal;
@@ -174,6 +177,10 @@ a:hover {
 }
 header .row.borderbody .col-xl-2.col-sm-2 {
     margin-right: -180px;
+}
+h4 {
+    font-weight: 300;
+    font-family: "Helvetica Neue CE 55 Roman";
 }
 
 @media (max-width: 740px){
