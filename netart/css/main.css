@@ -1,0 +1,14 @@
+@charset "UTF-8";
+body {
+    background-color: rgba(0,0,0,1.00);
+	cursor: url("../images/swordie0001_1.gif")
+}
+.full {
+    height: 40%;
+    text-align: center;
+    width: 40%;
+    margin-top: 351px;
+}
+.scaller {
+    width: 40%;
+}
